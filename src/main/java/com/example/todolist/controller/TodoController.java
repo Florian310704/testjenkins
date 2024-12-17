@@ -12,7 +12,6 @@ public class TodoController {
 
     private final TodoService todoService;
 
-    // Constructeur pour l'injection du service
     public TodoController(TodoService todoService) {
         this.todoService = todoService;
     }

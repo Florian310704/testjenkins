@@ -13,18 +13,15 @@ public class ToDo {
     private String title;
     private boolean completed;
 
-    // Constructeur par défaut nécessaire pour Spring
     public ToDo() {
     }
 
-    // Constructeur avec trois arguments
     public ToDo(Long id, String title, boolean completed) {
         this.id = id;
         this.title = title;
         this.completed = completed;
     }
 
-    // Getters et setters
     public Long getId() {
         return id;
     }
